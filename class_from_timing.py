@@ -1,6 +1,6 @@
 import cPickle as pickle
 
-def find_classes_at_timings(current_sem, current_weekday,current_time):
+def find_classes_at_timings(current_sem,current_weekday,current_time):
     course_db = pickle.load(open("courses_database.pkl","r"))
     filtered_course = []
 

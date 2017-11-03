@@ -7,7 +7,7 @@ from class_from_timing import find_classes_at_timings
 now = datetime.datetime.now()
 # now = now + datetime.timedelta(days=90)
 # now = now.astimezone(pytz.timezone('America/Los_Angeles'))
-daysofweek = ['M','Tu','W','Th','F']
+daysofweek = ['M','T','W','Th','F']
 curr_time = now.hour*100 + now.minute
 
 # if now.hour!=12:
